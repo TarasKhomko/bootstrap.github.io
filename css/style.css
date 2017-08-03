@@ -1,26 +1,108 @@
-.row.content {height: auto;}
+body{
+    background:red;
+}   
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hidde{
 
-   /* Set gray background color and 100% height */
-   .sidenav {
-     background-color: #f1f1f1;
-     height: 100%;
-   }
+   width: 90px;
+  position: absolute;
+display: none;
+background-color: rgb(153, 255, 255, 0,5)
+}
+.show{
+  width: 90px;
+}
+.slick{
+    max-width: 900px;
+}
 
-   /* Set black background color, white text and some padding */
-   footer {
-     background-color: #555;
-     color: white;
-     padding: 15px;
-   }
+img{
 
-   /* On small screens, set height to 'auto' for sidenav and grid */
-   @media screen and (max-width: 767px) {
-     .sidenav {
-       height: auto;
-       padding: 15px;
-     }
-     .row.content {height: auto;}
-   }
-body {
-  padding-top: 10px;
+    width: 100%;
+}
+.sl{
+     display:inline-blo3ck; 
+    position:relative;
+    
+}
+.sl .desk{
+ 
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+   text-align: center;
+     
+    color:#fff;
+     
+    padding:10px;
+    background-color:rgba(99, 22, 200, 0.5);
+}
+.sl .link{
+ text-align: center;
+    position:absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   margin-top: 100px;
+  width: 150px;
+    height: 40px;
+    top:0;
+
+   text-align: center;
+     
+    color:#fff;
+
+    background-color:rgba(99, 22, 200, .3);
+   border-style: solid;
+    border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+    border-color:coral;
+    border-width: 1px;
+}
+.sl .link a{
+    color: azure;
+
+}
+
+button.slick-next.slick-arrow{
+ text-shadow: 2px 2px 4px #000000;
+  
+   
+}
+button.slick-prev.slick-arrow{
+    text-shadow: 2px 2px 4px #000000; 
+
+}
+
+.col-md-3{
+margin: auto;
+}
+.thumb {
+    margin-bottom: auto;
+    position:relative;
+    overflow:hidden;
+}
+
+.desk_slide p {
+    padding: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.desk_slide {
+    
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(90, 90, 90, 0.5);
+    width:100%;
+    height:100%;
+    padding:3%;
+    display: none;
+    text-align: left;
+    color:#fff !important;
+    z-index:2;
 }
